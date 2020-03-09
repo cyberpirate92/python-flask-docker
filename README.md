@@ -55,7 +55,14 @@ docker container list
 
 Open browser and go to http://localhost:5000 to see if the flask app is running successfully.
 
+## Cleanup
+
 To remove docker container
 ```bash
 docker container rm --force my_flask_app
+```
+
+To deactivate virtual environment
+```bash
+deactivate
 ```
